@@ -1,0 +1,88 @@
+* {
+    font-family: 'ABeeZee';
+}
+
+/* General styling */
+
+body {
+    background-color: #0B1320;
+}
+
+.text {
+    color: #ECECEC;
+}
+
+/* Top classes styling */
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+/* Body class styling - Content */
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Body class styling - Canvas */
+
+.canvas {
+    width: 800px;
+    height: 500px;
+}
+
+.cell {
+    border: 1px solid #ECECEC;
+    width: calc(800px/4);
+    height: calc(500px/4);
+    display: inline-flex;
+}
+
+/* Body class styling - Button and button column */
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: #004851;
+    color: #77B6BE;
+    border: 1px solid #004851;
+    border-radius: 25px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    border-color: yellow;
+}
+
+/* Body class styling - Color picker */
+
+#picker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#colors {
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #004851;
+    color: #77B6BE;
+    border: 1px solid #004851;
+    border-radius: 25px;
+    padding: 7.5px;
+    text-align: center;
+}
+
+#colors:hover {
+    border-color: yellow;
+}
